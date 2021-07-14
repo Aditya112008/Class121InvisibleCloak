@@ -1,0 +1,21 @@
+Invisible Cloak : 
+We will be using the camera (cv2) to access the camera 
+We will create a magical experience using the image processing technique called color-detection and segmentation
+These are the steps we need to follow :
+
+1. Capture and store the background frame (This will be done for some seconds )
+2. Detect the red colored cloak using color detection and segmentation algorithm 
+3. Segement out the red colored cloak by generating a mask
+4. Generate the final output to create a magical effect 
+
+HUE : this channel encodes color information 
+HUE can be thought if as an angle where 
+0   degree -> red 
+120 degree -> green 
+240 degree -> blue 
+
+SATURATION : this channel encodes the intensity / purity of the color
+E.g. Pink is less saturated than red 
+
+VALUE : this channel encodes the brightness of the color 
+e.g. shading of an image appears in this channel
